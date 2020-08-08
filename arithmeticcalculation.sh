@@ -1,6 +1,10 @@
 #! /bin/bash
 
-read -p "Enter number1 : " num1
-read -p "Enter number2 : " num2
-read -p "Enter number3 : " num3
+read -p "Enter number a: " a
+read -p "Enter number b: " b
+read -p "Enter number c: " c
 
+op1=$(($a+$b*$c))
+op2=$(($a*$b+$c))
+op3=$(($a+$b/$c))
+op4=$(($a%$b+$c))
